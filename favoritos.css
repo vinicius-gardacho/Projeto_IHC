@@ -1,0 +1,59 @@
+.titulo{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.lista{
+    margin: 0 auto;
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.filme{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    background: #305fc4;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.enviar{
+    background: red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+}
+
+@media (max-width: 950px) {
+    .lista{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+
